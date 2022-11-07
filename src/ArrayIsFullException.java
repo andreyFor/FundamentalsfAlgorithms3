@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class ArrayIsFullException {
-}
+public class ArrayIsFullException extends RuntimeException {
+    public ArrayIsFullException() {
+    }
+
+    public ArrayIsFullException(String message) {
+        super(message);
+    }
+}//делано
