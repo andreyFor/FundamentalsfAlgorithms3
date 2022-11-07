@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class ElementNotFoundException {
-}
+
+public class ElementNotFoundException extends RuntimeException {
+    public ElementNotFoundException() {
+    }
+
+    public ElementNotFoundException(String message) {
+        super(message);
+    }
+}//делано

@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class StringListOutFromArrException {
-}
+public class StringListOutFromArrException extends RuntimeException {
+    public StringListOutFromArrException() {
+    }
+
+    public StringListOutFromArrException(String message) {
+        super(message);
+    }
+}//делано
